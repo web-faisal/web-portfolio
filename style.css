@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: dimgray;
 }
 h1{
     font-size: 50px;
@@ -50,25 +51,38 @@ section{
 /* Dream Big End */
 
 /* Experience Are Start*/
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center; 
+}
 .exp h1{
     text-align: center;
 }
-.exp .box-1{
-    background: linear-gradient(sandybrown, salmon); 
-    border-left: 7px solid rgb(248, 97, 80);
+#box-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, salmon);  
+    border-image-slice: 1;
 }
-.exp .box-2{
-    background: linear-gradient(salmon, tomato); 
-    border-left: 7px solid rgb(245, 73, 43);  
+#box-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
-.exp .box{
-    margin: 30px;
-    color: #ffff;
+.box{
+    margin: 30px;       
     border-radius: 15px;
     text-align: center;
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
 }
 .exp .box p{
     text-align: justify;
+}
+.orange{
+    color: orange;
+    text-align: left;
 }
 /* Experience Are End*/
 
@@ -77,6 +91,7 @@ section{
     background: linear-gradient(salmon, tomato); 
     color: #ffff;
     padding: 50px;
+    font-size: 12px;
 }
 
 /* Footer End */
