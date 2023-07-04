@@ -1,0 +1,82 @@
+/* Universal CSS Start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.btn{
+    background: linear-gradient(orange, salmon);
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.half-width{
+    width: 45%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+/* Universal CSS End */
+
+/* Header Start */
+.header {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.orange{
+    color: orange;
+}
+/* Header Start End */
+
+/* Dream Big Start */
+.dream-big{
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+/* Dream Big End */
+
+/* Experience Are Start*/
+.exp h1{
+    text-align: center;
+}
+.exp .box-1{
+    background: linear-gradient(sandybrown, salmon); 
+    border-left: 7px solid rgb(248, 97, 80);
+}
+.exp .box-2{
+    background: linear-gradient(salmon, tomato); 
+    border-left: 7px solid rgb(245, 73, 43);  
+}
+.exp .box{
+    margin: 30px;
+    color: #ffff;
+    border-radius: 15px;
+    text-align: center;
+}
+.exp .box p{
+    text-align: justify;
+}
+/* Experience Are End*/
+
+/* Footer Start */
+.footer{
+    background: linear-gradient(salmon, tomato); 
+    color: #ffff;
+    padding: 50px;
+}
+
+/* Footer End */
